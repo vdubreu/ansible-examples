@@ -3,7 +3,7 @@
   hosts: all
   become: true
   vars:
-      text_message: " Bonjour AWX"
+      text_message: " Bonjour Vincent "
   tasks:
     - name: copy template file
       template:
